@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+        <title> Cake & Bake</title>
+    </head>
+
+    <meta charset="utf-8">
+
+    <body>
+        <!--loads the style file-->
+        <link rel="stylesheet" href="Styles/Style.css">
+
+        <!--Navigation bar links-->
+        <div class="topnav">
+            <a href="Home.html">Home</a>
+            <a href="OurProducts.html">Our Products</a>
+            <a class="active" href="Order.html">Make Your Order</a>
+        </div>
+
+
+        <!--center the title-->
+    <div class="centerTitle">
+
+        <!--Cake request form-->
+        <div class="Font1">
+        <h1>Customize your order</h1>
+        </div>
+
+    </div>
+
+    <!--center the text-->
+    <div class="center">
+
+        <form><!--action="/orders.php"-->
+
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value=" "><br><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" name="phone" value=""><br><br>
+        <label for="email">e-mail:</label><br>
+        <input type="text" id="email" name="email" value=""><br><br>
+        
+        <p>Choose the flavour of the bun</p>
+
+        <!--type is what king of form we are choosing, radio are bullets-->
+        <!--id is the label we are giving to the HTML item-->
+        <!--Value is the text HTML will show-->
+        <input type="radio" id="Chocolate" name="bunFlavour" value="Chocolate">
+        <label for="Chocolate">Chocolate</label>
+        <br>
+        <input type="radio" id="Vanilla" name="bunFlavour" value="Vanilla">
+        <label for="Vanilla">Vanilla</label>
+        <br>
+        <input type="radio" id="HalfAndHalf" name="bunFlavour" value="HalfAndHalf">
+        <label for="HalfAndHalf">Half and Half</label>
+
+        <br>
+
+        <!--toppings-->
+        <!--the type is checkbox because the client can choose multiple or none-->
+
+        <p>Choose your toppings</p>
+        <input type="checkbox" id="topping1" name="flowers" value="Flowers">
+        <label for="topping1"> Flowers</label><br>
+        <input type="checkbox" id="topping2" name="wedding" value="wedding">
+        <label for="topping2"> Wedding figure</label><br>
+        <input type="checkbox" id="topping3" name="Fruit" value="Fruit">
+        <label for="topping3"> Fruit</label>
+
+        <br><br>
+
+        <!--submit button-->
+        <input type="submit" value="Submit">
+
+        </form> 
+
+    </div>
+
+
+    
+    </body>
+
+</html>
